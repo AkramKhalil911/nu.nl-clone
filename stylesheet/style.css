@@ -1,0 +1,301 @@
+/* body */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+}
+
+/* menubar */
+
+.menubar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-self: center;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 100%;
+    height:85px;
+    box-shadow: 0 0 10px rgb(179, 179, 179);
+}
+
+.menubar a {
+    text-decoration: none;
+    color: #1f2544;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+}
+
+.menulinks{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-self: right;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.menulinks a {
+    padding: 7px 12px;
+}
+
+.menulinks2{
+    display: flex;
+    list-style: none;
+    justify-self: right;
+    margin-left: 2%;
+    padding: 7px 12px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+}
+
+.menulinks2 .fa-adjust, .fa-user{
+    font-size: 19px;
+    padding: 0px 5px;
+}
+
+
+.menulogo {
+    display: flex;
+    height: 56.25px;
+    align-items: center;
+    margin-left: 10%;
+}
+
+
+.menu_left {
+    display: flex;
+    margin-left: 24%;
+}
+
+.menu_hover {
+    display: flex;
+}
+
+.menu_hover a:hover{
+    background-color:#f6f6f8;
+    border-radius: 20px;
+}
+/* container */
+
+.container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    margin-top: 20px;
+    background-image: url("../plaatje/ad1.jpg");
+    background-attachment: fixed;
+    background-size:contain;
+    background-position: center;
+}
+
+.flex-container {
+    display: flex;
+}
+
+/* advertenties 1 IMG */
+
+.advertentie2 {
+    display: flex;
+    width: 990px;
+    height: 270px;
+    background-image: url("../plaatje/advertentie2.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    right: 10px;
+}
+
+.advertentie3 {
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 300px;
+    height: 250px;
+}
+
+/* nieuws inhoud */
+
+.nieuws {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 990px;
+    padding: 0 0 0 10px;
+}
+
+#datum {
+    color: #1f2544;
+    font-size: 12.2px;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 14.2px 0;
+}
+
+.container_iconen {
+    display: flex;
+    margin-left: 26.9%;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left:210px;
+}
+
+#weer, #verkeer, #cours, #tv_gids, #voetbal {
+    display: flex;
+    color: #1f2544;
+    font-size: 13.2px;
+    font-family: 'Noto Sans', sans-serif;
+    width: 60px;
+    padding: 0px 1px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+#weer:hover, #verkeer:hover, #cours:hover, #tv_gids:hover, #voetbal:hover {
+    border: 1px solid black;
+}
+
+.fa-search {
+    display: flex;
+}
+
+/* nieuws artiekel 1 */
+
+.nieuwsart {
+    background-image: url("../plaatje/nieuwsart1.jpg");
+    background-size: cover;
+    border-radius: 5px;
+    height: 301px;
+    width: 601px;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.nieuwsart h1{
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 24px;
+    margin-top: 190px;
+}
+
+.nieuwsart h3 {
+    color: white;
+    background-color: #c40000;
+    height: 20px;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+}
+
+/* nieuwsblog */
+
+.nieuwsblog {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    max-width: fit-content;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.nieuwsblog a{
+    color:#1f2544;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15.4px;
+    word-spacing: 1px;
+    text-decoration: none;
+    margin: 2px;
+    line-height: 30px;
+}
+
+.algemeenBTN {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3px 3px;
+}
+
+.algemeenBTN:hover {
+    text-decoration: underline;
+}
+
+/* net binnen */
+
+.netbinnen {
+    width: 336px;
+    height: 261px;
+    position: relative;
+    right: 10px;
+    margin: 20px;
+}
+
+.netbinnen .fa-share-alt {
+    display: flex;
+    letter-spacing: 10px;
+    color: white;
+    align-items: center;
+}
+
+.netbinnen a{
+    display: flex;
+    color:#1f2544;
+    word-spacing: 1px;
+    text-decoration: none;
+    align-items: center;
+    line-height: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+}
+
+#netbinnenTXT {
+   margin: 10px;
+}
+
+#tijd {
+    color:gray;
+    margin: 10px;
+}
+
+#underline:hover {
+    text-decoration: underline;
+}
+
+#underline_gray {
+    border-bottom: 1px solid #eeeeee;
+}
+
+/* net binnen button */
+
+.netbinnenBTN {
+    display: flex;
+    background-color:#1f2544;
+    width: 150px;
+    padding: 8px 17px 8px 15px;
+    margin: 0px 15px 16px;
+    border-radius: 6px 20px 20px 6px;
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+
+.netbinnenBTN a {
+    color: white;
+    text-decoration: none;
+}
+
+.netbinnenBTN a:hover {
+    text-decoration: underline;
+}
